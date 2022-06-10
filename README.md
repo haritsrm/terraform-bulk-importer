@@ -3,7 +3,7 @@ Terraform state bulk importer and remover.
 ## Installation
 - First we need to clone this repository: 
 ```shell
-git clone https://github.com/rietzche/terraform-bulk-importer.git $HOME/Tools/terraform-bulk-importer
+git clone https://github.com/rietzche/terraform-bulk-importer.git $HOME/Tools/terraform-state-importer
 cd $HOME/Tools/terraform-bulk-importer
 ```
 - Execute `./install.sh`
