@@ -1,5 +1,6 @@
 # Terraform Bulk Importer
 Terraform state bulk importer and remover.
+
 ## Installation
 - First we need to clone this repository: 
 ```shell
@@ -25,3 +26,6 @@ You must create new directory on `$HOME/Tools/terraform-bulk-importer` for the `
 Add `modules` and `values` file for adding list of modules and params that would be imported into your project state.
 
 Then run `terraform-bulk-importer <DIR> -i` for import and `terraform-bulk-importer <DIR> -rm` for remove imported state.
+
+## Supports
+For now this tool only support for UNIX machine.
