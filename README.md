@@ -27,5 +27,8 @@ Add `modules` and `values` file for adding list of modules and params that would
 
 Then run `terraform-bulk-importer <DIR> -i` for import and `terraform-bulk-importer <DIR> -rm` for remove imported state.
 
+## Limitations
+For now this tool only can running on 1 process/not for multitask purpose usage.
+
 ## Supports
 For now this tool only support for UNIX machine.
